@@ -1,0 +1,28 @@
+jQuery Panel Menu Plugin
+ by Christopher Byrum (quixote2030)
+ Plugin name: jquery.panelmenu
+
+
+== Description
+ This plugin provides a simple alternative to multilevel drop down menus. Drop down panels provide multiple
+ categories and columns of links within a single level drop down.
+
+ Please Note: This plugin was built using the jQuery "Simple Drop Down Menu" plugin as a starting point.
+  - http://javascript-array.com/scripts/jquery_simple_drop_down_menu/
+
+
+== Code
+ 
+ Browse it:
+  - http://github.com/quixote2030/jquery.panelmenu-plugin.git
+
+ Clone it:
+  - git clone git://github.com/quixote2030/jquery.panelmenu-plugin.git
+
+
+== Usage
+ Coming...
+
+
+== License
+ 

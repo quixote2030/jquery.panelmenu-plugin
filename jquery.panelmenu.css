@@ -1,0 +1,86 @@
+ul.jq-pmenu {	
+	margin: 0;
+	padding: 0;
+}
+
+ul.jq-pmenu li {	
+	float: left;
+	list-style: none;
+	font: 12px Tahoma, Arial;
+}
+
+ul.jq-pmenu li a.jq-pmenu-item {
+	display: block;	
+	height: 17px;
+	padding: 5px 15px 5px 5px;
+	border: 1px solid #172835;
+	background-color: #172835;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+	white-space: nowrap;
+	text-align: center;
+	z-index: 1001;
+}
+
+ul.jq-pmenu li a.jq-pmenu-item:hover {	
+	background-color: #FFFFFF;
+	color: #336699;
+}
+
+ul.jq-pmenu li a.jq-pmenu-item.over-item {
+	background-color: #FFFFFF;
+	color: #336699;
+	border-bottom: 2px solid #FFFFFF;
+}
+
+ul.jq-pmenu span.jq-pmenu-arrow {
+	visibility: hidden;
+}
+
+ul.jq-pmenu a span.jq-pmenu-arrow img {
+	width: 15px; 
+	height: 15px; 
+	border: none;
+	margin: 0px 0px -3px 3px;
+}
+	
+ul.jq-pmenu li div.jq-pmenu-panel {	
+	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	margin-top: -1px;
+	padding: 0;
+	background-color: #FFFFFF;
+	border: 1px solid #172835;
+	border-top: none;
+	color: #336699;
+	text-align: left;
+	padding: 7px;
+	z-index: 1000;
+}
+
+ul.jq-pmenu li div dd {
+	margin-bottom: 7px;
+}
+
+ul.jq-pmenu li div dt {
+	color: #172835;
+	font: 12px Tahoma, Arial;
+	font-weight: bold;
+}
+
+ul.jq-pmenu li div a {
+	color: #336699;
+	font: 12px Tahoma, Arial;
+}
+
+ul.jq-pmenu li div a:hover {
+	text-decoration: none;
+}
+
+ul.jq-pmenu li div.jq-pmenu-col {
+	float: left;
+	margin-right: 20px;
+	padding-left: 10px;
+}

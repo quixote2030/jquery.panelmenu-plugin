@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>jQuery Panel Menu Test</title>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.js" type="text/javascript"></script>
+		<script src="../jquery.panelmenu.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$(document).ready(function() { 
+				$.panelmenu.initialize("nav_menu");
+				document.onclick = $.panelmenu.close_menu;
+			});
+		</script>
+		
+		<link href="../jquery.panelmenu.css" rel="stylesheet" type="text/css" />
+		<style type="text/css">
+			#nav_container {
+				width: 100%;
+				height: 29px;
+				background-color: #172835;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="nav_container">
+			<ul id="nav_menu" class="jq-pmenu">
+				<li><a class="jq-pmenu-item" href="#">Home</a></li>
+				<li>
+					<a class="jq-pmenu-item" href="#">Music 
+						<span class='jq-pmenu-arrow'><img src='down-arrow.png' /></span></a>
+					<div class="jq-pmenu-panel">
+						<div class="jq-pmenu-col">
+							<dd>
+								<dt>CD's</dt>
+								<dl><a href="#">All CD's</a></dl>
+								<dl><a href="#">Punk/Hardcore</a></dl>
+								<dl><a href="#">Metal</a></dl>
+								<dl><a href="#">Pop</a></dl>
+								<dl><a href="#">Blues/Folk</a></dl>
+							</dd>
+							<dd>
+								<dt>Vinyl</dt>
+								<dl><a href="#">All 12 inch</a></dl>
+								<dl><a href="#">All 7 inch</a></dl>
+								<dl><a href="#">80's Punk/Hardcore</a></dl>
+								<dl><a href="#">70's Rock</a></dl>
+								<dl><a href="#">Obscure and Bizarre</a></dl>
+							</dd>
+						</div>
+						<div class="jq-pmenu-col">
+							<dd>
+								<dt>Featured Artists</dt>
+								<dl><a href="#">Motorhead</a></dl>
+								<dl><a href="#">Bad Brains</a></dl>
+								<dl><a href="#">Woody Guthrie</a></dl>
+								<dl><a href="#">Black Sabbath</a></dl>
+								<dl><a href="#">Led Zepplin</a></dl>
+							</dd>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a class="jq-pmenu-item" href="#">Comics 
+						<span class='jq-pmenu-arrow'><img src='down-arrow.png' /></span></a>
+					<div class="jq-pmenu-panel">
+						<div class="jq-pmenu-col">
+							<dd>
+								<dt>Publishers</dt>
+								<dl><a href="#">All Publishers</a></dl>
+								<dl><a href="#">All Indie</a></dl>
+								<dl><a href="#">Image</a></dl>
+								<dl><a href="#">Vertigo</a></dl>
+								<dl><a href="#">Dark Horse</a></dl>
+								<dl><a href="#">IDW Publishing</a></dl>
+								<dl><a href="#">Oni Press</a></dl>
+								<dl><a href="#">DC Comics</a></dl>
+								<dl><a href="#">Marvel</a></dl>
+							</dd>
+							<dd>
+								<dt>Featured Trade Paper</dt>
+								<dl><a href="#">The Watchmen</a></dl>
+								<dl><a href="#">Preacher</a></dl>  
+								<dl><a href="#">The Spirit</a></dl>
+								<dl><a href="#">Hellboy</a></dl>
+								<dl><a href="#">Fell</a></dl>
+							</dd>
+						</div>
+						<div class="jq-pmenu-col">
+							<dd>
+								<dt>Featured Artists</dt>
+								<dl><a href="#">Will Eisner</a></dl>
+								<dl><a href="#">Alan Moore</a></dl>
+								<dl><a href="#">Warren Ellis</a></dl>
+								<dl><a href="#">Ben Templesmith</a></dl>
+								<dl><a href="#">Yoshihiro Tatsumi</a></dl>
+								<dl><a href="#">Mike Mignola</a></dl>
+							</dd>
+							<dd>
+								<dt>What's near me?</dt>
+								<dl><a href="#">Find local indie friendly stores</a></dl>
+							</dd>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a class="jq-pmenu-item" href="#">My Account 
+						<span class='jq-pmenu-arrow'><img src='down-arrow.png' /></span></a>
+					<div class="jq-pmenu-panel jq-pmenu-display-rl">
+						<dd>
+							<dt>My Orders</dt>
+							<dl><a href="#">Track my packages</a></dl>
+							<dl><a href="#">Change my order</a></dl>
+						</dd>
+						<dd>
+							<dt>My Information</dt>
+							<dl><a href="#">Address/Email</a></dl>
+							<dl><a href="#">Payment details</a></dl>
+							<dl><a href="#">I forgot my password</a></dl>
+						</dd>
+						<dd>
+							<dt>Subscriptions</dt>
+							<dl><a href="#">Out monthly offers newsletter</a></dl>
+							<dl><a href="#">New releases RSS feed</a></dl>
+						</dd>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

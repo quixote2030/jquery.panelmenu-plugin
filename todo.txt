@@ -1,0 +1,14 @@
+Verify all jQuery plugin requirements met
+
+Bugs:
+- Left to right display slightly off sometimes
+- Panel Display should never be smaller width that header
+
+Updates:
+- css refinement, border for top of panel
+- insertion of dropdown arrow, so no need to include explicitly in markup
+- refine DOM traversing to improve efficiency
+
+New Features:
+- hoverIntent support?
+- remote loading of content?
